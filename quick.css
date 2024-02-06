@@ -1,0 +1,126 @@
+body {
+    /* font-family: 'Arial', sans-serif; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-image: url("imge/Sorting-Algorithms.png" );
+    background-position: center;
+    background-size: cover;
+ position: relative;
+ 
+ 
+ }
+#personal_info{
+    background-color: rgba(250, 235, 215, 0.86);
+    justify-content: center;
+    text-align: center;
+    border: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    
+}
+
+
+#arrayContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.arrayElement {
+    background-color: rgb(101 179 17);
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.pivotElement {
+    background-color: rgb(191 28 28 / 70%);
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#title{
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    background-color: rgba(250, 235, 215, 0.86);
+    border-radius: 5px;
+
+}
+#listname{
+    padding:  5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    list-style-type: none;
+    
+}
+#h2{
+    padding: 5px;
+    font-family: "Trirong", serif;
+   
+}
+#h3{
+    padding: 5px;
+    margin-top: -41px;
+    
+}
+#list{
+    margin-top: 1px;
+}
+#short_part{
+    background-color: rgba(250, 235, 215, 0.86);
+    justify-content: center;
+    text-align: center;
+    margin-top: -14px;
+    border-radius: 5px;
+    border-radius: 5px;
+    
+}
+.main_part{
+    padding: 6pxpx;
+}
+#button{
+    background-color: rgba(232, 164, 38, 0.959);
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: -10px;
+
+}
+#p{
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#finalArray{
+    
+        background-color: #d89b49;
+        border-radius: 5px;
+        margin: 29px;
+    }
+
+
+#h4{
+    padding-top: 11px;
+   
+}
+.loader1{
+    display: block;
+    margin-bottom: 0px;
+}
+
+#loader2{
+    margin-top: 0px;
+}
+.loader{
+    display: block;
+    max-height: 90px;
+    margin-top: -25px;
+    margin-bottom: -25PX;
+}

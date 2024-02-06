@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Sort Visualization</title>
+    <link rel="stylesheet" href="quick.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+</head>
+
+<body>
+
+
+    <div id="personal_info">
+        <h1 id="h2">GRAPHICAL REPRESENTATION OF QUICK SHORT WITH SOLUTION/GUI BASED SIMULATOR</h1><br>
+
+        <h2 id="h3">Present By</h2>
+        <ul id="list">
+            <li id="listname">Kritesh Thummar - IU2241050149</li>
+            <li id="listname">Dhruv Dobariya - IU2241050150</li>
+            <li id="listname">Mohil Kyada - IU2241050169</li>
+        </ul>
+    </div>
+    <h2 id="title">Quick Sort Visualization</h2><br>
+
+    <div id="short_part">
+        <div class="main_part">
+            <p id="p"><label for="arrayInput">Enter array elements (comma-separated):</label>
+                <input type="text" id="arrayInput" placeholder="e.g., 5,3,8,1,4">
+            </p><br>
+            <div id="loader1" style="justify-content: center;" >
+                <div style="justify-content: center;">
+                    <button id="button" onclick="visualizeQuickSort()">Visualize Quick Sort</button>
+                </div>
+                <div id="loader2" style="display:none; justify-content: center;">
+                    <img class="loader" src="imge/ezgif-2-6d0b072c3d3f-Copy-unscreen.gif">
+                </div>
+            </div>
+        </div>
+
+        <div id="arrayContainer" styal="justify-content: center"></div>
+        <div id="finalArray" style="margin-top: 20px; margin-bottom: 20px; "></div>
+        <button id="button" onclick="refresh()">Refresh</button>
+    </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="Quick.js"></script>
+
+</body>
+
+</html>
